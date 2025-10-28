@@ -1,9 +1,10 @@
-# ai-for-science
+# AI-For-Science
 
 ## Table of Contents
 1. [About](#About)
 2. [Using this project](#Using-this-project)
 3. [Documentation](#Documentation)
+4. [Links](#Links)
 
 ## About
 The AI for Science project aims to tackle a key challenge in modern physical sciences research the fact that methods for analyzing and interpreting experimental data have not kept pace with the exponentially increasing volume of data being generated. As experimental techniques and facilities advance, the rate of data production continues to grow, placing pressure on researchers and infrastructure to extract meaningful insights efficiently.
@@ -21,3 +22,7 @@ There is also a general section file in this repository that includes scripts fo
 ## Documentation
 When documentation is created, links to it will be here.
 
+## Links
+Links to specific groups files:
+1. [General](general/README.md)
+2. [Project-M](project-m/.README.md)
