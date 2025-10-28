@@ -23,6 +23,6 @@ There is also a general section file in this repository that includes scripts fo
 When documentation is created, links to it will be here.
 
 ## Links
-Links to specific groups files:
-1. [General](general/README.md)
-2. [Project-M](project-m/.README.md)
+Links to specific group files:
+1. [General](general/)
+2. [Project-M](project-m/)
