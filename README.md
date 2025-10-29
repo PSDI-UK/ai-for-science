@@ -16,7 +16,7 @@ AI and machine learning models can play a key role in pre-experimental screening
 Working in collaboration with the Physical Sciences Data Infrastructure (PSDI), UCL, and the Ada Lovelace Centre (ALC), this project will make data more Findable, Accessible, Interpretable, and Reusable (FAIR).
 
 ## Using this project
-This project is currently working with six groups. Each group has its own sections within this repository, explaining any group-specific information.
+This project is currently working with several groups. Each group has its own sections within this repository, explaining any group-specific information.
 There is also a general section file in this repository that includes scripts for injecting, extracting, and updating data from the repository and any other information that is not team-specific.
 
 ## Documentation
