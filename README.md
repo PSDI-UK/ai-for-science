@@ -25,4 +25,4 @@ When documentation is created, links to it will be here.
 ## Links
 Links to specific group files:
 1. [General](general/)
-2. [Project-M](project-m/)
+2. [Project_M](project_m/)
