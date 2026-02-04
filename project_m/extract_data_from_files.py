@@ -240,10 +240,16 @@ def add_misc_data(linked_field_data: dict, filename: str) -> dict:
         linked_field_data["vaterite_phase_present"] = True
     else:
         linked_field_data["vaterite_phase_present"] = False
+        del linked_field_data["vaterite_unit_cell_angle_alpha"]
+        del linked_field_data["vaterite_unit_cell_angle_beta"]
+        del linked_field_data["vaterite_unit_cell_angle_gamma"]
     if linked_field_data["calcite_unit_cell_length_a"] != None:
         linked_field_data["calcite_phase_present"] = True
     else:
         linked_field_data["calcite_phase_present"] = False
+        del linked_field_data["calcite_unit_cell_angle_alpha"]
+        del linked_field_data["calcite_unit_cell_angle_beta"]
+        del linked_field_data["calcite_unit_cell_angle_gamma"]
     return linked_field_data
 
 def extract_from_zenodo(filename: str) -> dict:
