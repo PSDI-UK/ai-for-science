@@ -126,3 +126,15 @@ for x in ds.records(record_set="default"):
 2. Automate ingestion into PSDI Community Data Collections.
 3. Integrate directly with PSDI API pipelines.
 4. Support additional ML Tasks (1b, 2, etc.)
+
+## Documentation
+Documentation for the croissant generation pipeline is available in the `docs/` folder and can be viewed locally using MKDocs. To view documentation locally:
+1. Install dependencies: 
+```bash
+pip install mkdocs mkdocs-material mkdocstrings[python]
+```
+2. Run the docs server:
+```bash
+mkdocs serve
+```
+3. Open the local URL shown in the terminal.
