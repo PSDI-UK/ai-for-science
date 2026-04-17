@@ -1,0 +1,25 @@
+site_name: Project M Croissant Generation
+site_description: Documentation for generating MLCommons Croissant metadata for Project M datasets
+site_dir: site
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_source: false
+            show_root_heading: true
+            show_root_full_path: false
+            show_signature_annotations: true
+            separate_signature: true
+
+nav:
+  - Home: index.md
+  - Pipeline Overview: pipeline_overview.md
+  - Task Structure: task_structure.md
+  - Usage: usage.md
+  - API Reference: api.md
