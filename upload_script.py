@@ -6,8 +6,8 @@ from general import to_invenio_record
 from project_m import extract_from_zenodo
 from pathlib import Path
 
-INVENIO_URL = "https://data-collections-dev.psdi.ac.uk"
-TOKEN = "<INVENIO TOKEN>"
+INVENIO_URL = "https://data-collections.psdi.ac.uk"
+TOKEN = ""
 
 HEADERS = {
     "Authorization": f"Bearer {TOKEN}",
@@ -112,8 +112,13 @@ def add_file(file_path: Path, record_id: str):
 
 if __name__ == "__main__":
     rawdatadirectory = Path.cwd() / "constents" / "raw" / "ProjectMDiffractionDataUpdated5December2025"
-    all_files = list(rawdatadirectory.rglob("*.xye"))
-    file_names = [p.name for p in allfiles]
+    #all_files = list(rawdatadirectory.rglob("*.xye"))
+    #all_files = list(rawdatadirectory.rglob("*-mythen_summed.xye"))
+    file_names = {"578573-mythen_summed.xye", "578574-mythen_summed.xye", "578688-mythen_summed.xye", "578689-mythen_summed.xye",
+                 "578690-mythen_summed.xye", "578691-mythen_summed.xye", "578692-mythen_summed.xye", "578693-mythen_summed.xye",
+                 "578694-mythen_summed.xye", "578695-mythen_summed.xye", "578696-mythen_summed.xye", "578820-mythen_summed.xye",
+                 "578821-mythen_summed.xye", "578948-mythen_summed.xye"}
+    #file_names = [p.name for p in all_files]
 
     for file_name in file_names:
         payload = create_payload(file_name) 
