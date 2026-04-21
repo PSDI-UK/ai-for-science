@@ -65,7 +65,7 @@ Create `MLTaskX_croissantMetadata.json` by copying the template file which provi
 
 ### Step 4: Populate the DCAT Metadata
 
-The source for this comes from https://metadata.psdi.ac.uk/dev/psdi-dcat.jsonld. The configuration used are `id_of_dcat_dataset` and `dcat_file_location`. The process is to find the dataset with matching `@id`, extract required fields and map using `croissantFieldsThatMapToDCAT.csv` which was provided by the user. Some fields require string formatting or flattening such as creators must be converted into:
+The source for this comes from https://metadata.psdi.ac.uk/psdi-dcat.jsonld. The configuration used are `id_of_dcat_dataset` and `dcat_file_location`. The process is to find the dataset with matching `@id`, extract required fields and map using `croissantFieldsThatMapToDCAT.csv` which was provided by the user. Some fields require string formatting or flattening such as creators must be converted into:
  ```json
   {
     "@type": "sc:Person",
