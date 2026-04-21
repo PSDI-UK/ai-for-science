@@ -10,7 +10,7 @@
   "verify_ssl": true,
   "auth_token": "",
   
-  "dcat_file_location": "https://metadata.psdi.ac.uk/dev/psdi-dcat.jsonld",
+  "dcat_file_location": "https://metadata.psdi.ac.uk/psdi-dcat.jsonld",
   "id_of_dcat_dataset": "psdiDcat:data/c7a5caf4-5417-4de3-b2a2-c16cc24e36cb",
 
   "croissant_template_file": "croissantConstantsTemplate.json",
