@@ -1,0 +1,17 @@
+- datePublished - need to populate with current date in format "2026-04-01T00:00:00Z"
+- distribution/contentSize - need to calculate size of datafile (NB example files have made up value)
+- distribution/contentUrl - for now use local directory, but if this feeds through to PSDI Community Data Collections then feed through to there
+- distribution/encodingFormat - Depends on type of datafile -  could potentially be one of: 
+	CSV (text/csv)
+	Excel (application/vnd.ms-excel)
+	GZIP (application/gzip)
+	JPEG (image/jpeg)
+	JSON (application/json)
+	JSON-Lines (application/jsonl+json)
+	Parquet (application/vnd.apache.parquet)
+	Archive (TAR) (application/x-tar)
+	TSV (text/tab-separated-values)
+	Text (text/plain)
+	ZIP (application/zip)
+- distribution/sha256 - need to calculate this from the datafile contents (NB example files have made up value)
+
