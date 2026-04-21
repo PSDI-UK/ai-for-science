@@ -1,0 +1,67 @@
+{
+	"name": "Project M Dataset for ML Task 1a: Measuring Errors in XRD Data and Fitting", 
+    "description": "This dataset explores which are not good fits by flagging outliers based on: the data set and the R factor; the data set and the GoF; the data set and a combination of both R factor and GoF.",
+    "rai:dataCollection": "Data were collected at the Beamline I11 Instrument at the Diamond Light Source synchrotron in UK.", 
+    "rai:dataCollectionType": "Experiments", 
+	"rai:dataCollectionMissingData": "Not applicable", 
+    "rai:dataCollectionRawData": "The raw data are diffraction patterns that consist of .xye data, where x is counts, y is intensity and e is error.", 
+    "rai:dataAnnotationProtocol": "Data entries were classified as good or bad depending on the uncertainty in parameters Calcite_c and Vaterite_c. The threshold was 0.00009 for the former and 0.002 for the latter. In addition, a data entry was classified as bad if it contained a significant proportion of a phase not used in the model.", 
+    "rai:dataAnnotationPlatform": "Not applicable",
+    "rai:dataAnnotationAnalysis": "Not applicable",
+    "rai:annotatorDemographics": "Not applicable",
+    "rai:machineAnnotationTools": "Not applicable",
+    "rai:annotationsPerItem":"1 annotation (classification) per dataset item (experiment)",
+	"rai:dataPreprocessingProtocol": ["Not applicable"],
+    "rai:dataManipulationProtocol": "This analysis of the raw diffraction data was performed using Topas Academic software v7. The input file used is batch_topas.inp - it was executed for all datasets with and without the Vaterite phase included. After the runs were completed, the models with and without Vaterite were compared. The model containing Vaterite was chosen when the weighted-phase R-factor for the refinement was at least 0.1 lower than the value for the Calcite only model. Statistics were then calculated for each additive indivually, all additives combined, and all control samples. In both models, an Amorphous phase was modelled.", 
+    "rai:dataImputationProtocol": "Not applicable", 
+    "rai:dataUseCases": ["training, testing, validation"],
+    "rai:dataBiases": ["Some additive series are incomplete due to some concentrations being missing."], 
+    "rai:personalSensitiveInformation": ["No personal or sensitive information is included in the data."], 
+    "rai:dataSocialImpact": "Not applicable",
+    "rai:dataLimitations": ["Not applicable"], 
+	"rai:dataReleaseMaintenancePlan": "The data are being released as part of the launch of the AI4Science Project M PSDI launch in April 2026.", 
+	"distribution":[
+		{
+			"@id": "main_file",
+			"filename": "project_m_datafile.csv",
+			"description":"Main Project M datafile exported from PSDI Community Data Collections which contains summary of metadata for each experiment",
+			"recordset/key":["Filename"]
+		},
+		{
+			"@id": "task_file",
+			"filename": "MLTask1a_additionalColumns.csv",
+			"description":"Additional columns of data which specify annotations, exclusions and splits specific to this task.",
+			"recordset/key":["Filename", "ML Task Target"]
+		},
+		{
+			"@id": "additional_file",
+			"filename": "yobs_combined.txt",
+			"description":"The diffraction patterns the model is fitted to. This is the same as the  xxxxxx_mythen-summed.xye files, but accounts for any restrictions on 2theta range used in the fitting, or any rebinning used. The first line in these files are for the 2 theta (degrees) bins - labelled with 'tth' at the start of the line (the value is the right hand side of the bin). The other lines are one line per diffraction pattern - the filename used to generate it is at the start of the line. The values are intensity values for the corresponding 2theta bin.",
+			"recordset/key":["Filename"]
+		}
+	],
+	"recordSet":[
+		{
+			"@type": "cr:RecordSet",
+			"@id": "ml_task_target_enum",
+			"description": "Mapping of annotation labels which are used as targets for this machine learning task to representative numbers. Note that in the model, 'bad' is represented by a value of 1 and 'good' by a value of 0.",
+			"data": [
+				{ "ml_task_target_enum/label": "good" , "ml_task_target_enum/representative_number": 0},
+				{ "ml_task_target_enum/label": "bad" , "ml_task_target_enum/representative_number": 1}
+			],
+			"dataType": "sc:Enumeration",
+			"key": {
+                "@id": "ml_task_target_enum/label"
+            },
+			"field": [
+				{
+					"@type": "cr:Field",
+					"@id": "ml_task_target_enum/label",
+					"description": "One of {'good', 'bad'}.",
+					"dataType": ["sc:Text"]
+				},
+				{ "@id": "ml_task_target_enum/representative_number", "@type": "cr:Field", "dataType": ["sc:Float"] }
+			]
+		}
+	]
+}

@@ -1,0 +1,272 @@
+[
+	{
+		"name": "Filename",
+		"description": "Filename of raw Data .xye file",
+		"dataType": ["sc:Text"]
+	},
+	{
+		"name": "FileURL",
+		"description": "URL of raw Data .xye file",
+		"dataType": ["sc:Text"]
+	},
+	{
+		"name": "Maximum Intensity",
+		"description": "Maximum Intensity in raw Data .xye file",
+		"dataType": ["sc:Float"]
+	},
+	{
+		"name": "Weighted pattern R-factor (R_wp)",
+		"description": "A statistical measure of the quality of fit to a diffraction pattern. It is calculated by the square root of the weighted sum of the quotients of the differences between the calculated and observed diffraction pattern at each point and the weighted sum of squares of the observed pattern.",
+		"dataType": ["sc:Float"]
+	},
+	{
+		"name": "Goodness of Fit",
+		"description": "A statistical measure of the quality of fit to a diffraction pattern. It is calculated by dividing the weighted pattern R-factor by an R-factor which gives a measure of the quality of data (R_exp)",
+		"dataType": ["sc:Float"]
+	},
+	{
+		"name": "Degree of Crystallinity",
+		"description": "Percentage of area (after background subtraction) that comes from crystalline phases.",
+		"dataType": ["sc:Float","https://topas.awh.durham.ac.uk/doku.php?id=d#degree_of_crystallinity"]
+	},
+	{
+		"name": "Calcite phase present",
+		"description": "Indicates whether the calcite crystalline phase is present.",
+		"dataType": ["sc:Boolean"]
+	},
+	{
+		"name": "Calcite unit-cell length a",
+		"description": "Unit-cell length a in angstroms.",
+		"dataType": ["sc:Float", "https://github.com/Materials-Consortia/namespace-cif/blob/main/src/v0.1.0/properties/structures/_cif_cell_length_a.yaml"]
+	},
+	{
+		"name": "Calcite unit-cell length b",
+		"description": "Unit-cell length b in angstroms.",
+		"dataType": ["sc:Float", "https://github.com/Materials-Consortia/namespace-cif/blob/main/src/v0.1.0/properties/structures/_cif_cell_length_b.yaml"]
+	},
+	{
+		"name": "Calcite unit-cell length c",
+		"description": "Unit-cell length c in angstroms.",
+		"dataType": ["sc:Float", "https://github.com/Materials-Consortia/namespace-cif/blob/main/src/v0.1.0/properties/structures/_cif_cell_length_c.yaml"]
+	},
+	{
+		"name": "Calcite unit-cell angle alpha",
+		"description": "Unit-cell angle alpha in degrees.",
+		"dataType": ["sc:Float", "https://github.com/Materials-Consortia/namespace-cif/blob/main/src/v0.1.0/properties/structures/_cif_cell_angle_alpha.yaml"]
+	},
+	{
+		"name": "Calcite unit-cell angle beta",
+		"description": "Unit-cell angle beta in degrees.",
+		"dataType": ["sc:Float", "https://github.com/Materials-Consortia/namespace-cif/blob/main/src/v0.1.0/properties/structures/_cif_cell_angle_beta.yaml"]
+	},
+	{
+		"name": "Calcite unit-cell angle gamma",
+		"description": "Unit-cell angle gamma in degrees.",
+		"dataType": ["sc:Float", "https://github.com/Materials-Consortia/namespace-cif/blob/main/src/v0.1.0/properties/structures/_cif_cell_angle_gamma.yaml"]
+	},
+	{
+		"name": "Calcite weight percentage",
+		"description": "Weight percentage of the Calcite phase.",
+		"dataType": ["sc:Float"]
+	},
+	{
+		"name": "Vaterite phase present",
+		"description": "Indicates whether the vaterite crystalline phase is present.",
+		"dataType": ["sc:Boolean"]
+	},
+	{
+		"name": "Vaterite unit-cell length a",
+		"description": "Unit-cell length a in angstroms.",
+		"dataType": ["sc:Float", "https://github.com/Materials-Consortia/namespace-cif/blob/main/src/v0.1.0/properties/structures/_cif_cell_length_a.yaml"]
+	},
+	{
+		"name": "Vaterite unit-cell length b",
+		"description": "Unit-cell length b in angstroms.",
+		"dataType": ["sc:Float", "https://github.com/Materials-Consortia/namespace-cif/blob/main/src/v0.1.0/properties/structures/_cif_cell_length_b.yaml"]
+	},
+	{
+		"name": "Vaterite unit-cell length c",
+		"description": "Unit-cell length c in angstroms.",
+		"dataType": ["sc:Float", "https://github.com/Materials-Consortia/namespace-cif/blob/main/src/v0.1.0/properties/structures/_cif_cell_length_c.yaml"]
+	},
+	{
+		"name": "Vaterite unit-cell angle alpha",
+		"description": "Unit-cell angle alpha in degrees.",
+		"dataType": ["sc:Float", "https://github.com/Materials-Consortia/namespace-cif/blob/main/src/v0.1.0/properties/structures/_cif_cell_angle_alpha.yaml"]
+	},
+	{
+		"name": "Vaterite unit-cell angle beta",
+		"description": "Unit-cell angle beta in degrees.",
+		"dataType": ["sc:Float", "https://github.com/Materials-Consortia/namespace-cif/blob/main/src/v0.1.0/properties/structures/_cif_cell_angle_beta.yaml"]
+	},
+	{
+		"name": "Vaterite unit-cell angle gamma",
+		"description": "Unit-cell angle gamma in degrees.",
+		"dataType": ["sc:Float", "https://github.com/Materials-Consortia/namespace-cif/blob/main/src/v0.1.0/properties/structures/_cif_cell_angle_gamma.yaml"]
+	},
+	{
+		"name": "Vaterite weight percentage",
+		"description": "Weight percentage of the Vaterite phase.",
+		"dataType": ["sc:Float"]
+	},
+	{
+		"name": "Additive - label",
+		"description": "Short form of additive name.",
+		"dataType": ["sc:Text"]
+	},
+	{
+		"name": "Additive - concentration",
+		"description": "Ratio of additive: Ca ion concentration used.",
+		"dataType": ["sc:Float"]
+	},
+	{
+		"name": "Additive - ChEBI url",
+		"description": "URL to ChEBI entry which matches the additive molecule.",
+		"dataType": ["sc:URL"]
+	},
+	{
+		"name": "Additive - ChEBI molecule class URLs",
+		"description": "URLs of ChEBI classes which the additive molecule belongs to (via an 'is a' relationship).",
+		"dataType": ["sc:Text"]
+	},
+	{
+		"name": "Additive - ChEBI molecule class names",
+		"description": "Names of ChEBI classes which the additive molecule belongs to (via an 'is a' relationship).",
+		"dataType": ["sc:Text"]
+	},
+	{
+		"name": "Additive - name",
+		"description": "Common name of additive molecule.",
+		"dataType": ["sc:Text"]
+	},
+	{
+		"name": "Additive - IUPAC name",
+		"description": "Preferred IUPAC name of the additive.",
+		"dataType": ["sc:Text"]
+	},
+	{
+		"name": "Additive - formula",
+		"description": "Molecular formula of additive.",
+		"dataType": ["sc:Text"]
+	},
+	{
+		"name": "Additive - mass",
+		"description": "Formula mass of additive molecule.",
+		"dataType": ["sc:Float"]
+	},
+	{
+		"name": "Additive - canonical SMILES",
+		"description": "Canonical SMILES representation of the additive.",
+		"dataType": ["sc:Text"]
+	},
+	{
+		"name": "Additive - standard InChI",
+		"description": "Standard InChI identifier of the structure.",
+		"dataType": ["sc:Text"]
+	},
+	{
+		"name": "Additive - standard InChIKey",
+		"description": "Standard InChIKey identifier of the structure.",
+		"dataType": ["sc:Text"]
+	},
+	{
+		"name": "Additive - pKa (COOH group)",
+		"description": "Negative of the logarithm of the acid dissociation constants for the COOH groups (at 25 degrees C).",
+		"dataType": ["sc:Float"]
+	},
+	{
+		"name": "Additive - pKb (NH2 group)",
+		"description": "Negative of the logarithm of the acid dissociation constants for the NH2 groups (at 25 degrees C).",
+		"dataType": ["sc:Float"]
+	},
+	{
+		"name": "Additive - pI",
+		"description": "pH at the isoelectric point.",
+		"dataType": ["sc:Float"]
+	},
+	{
+		"name": "Additive - pKc (other group)",
+		"description": "Negative of the logarithm of the acid dissociation constants for other groups (at 25 degrees C).",
+		"dataType": ["sc:Float"]
+	},
+	{
+		"name": "ML Task Target",
+		"description": "Annotations applied to dataset to act as a target for this machine learning task. Note that in the model, 'bad' is represented by a value of 1 and 'good' by a value of 0.",
+		"dataType": ["sc:Text"]
+	},
+	{
+		"name": "Excluded (True/False)",
+		"description": "Indicates whether a row should be excluded from the machine learning model",
+		"dataType": ["sc:Boolean"]
+	},
+	{
+		"name": "ML Task Feature (Additive - label)",
+		"description": "Short form of additive name.",
+		"dataType": ["sc:Text"]
+	},
+	{
+		"name": "ML Task Feature (Additive - concentration)",
+		"description": "Ratio of additive: Ca ion concentration used.",
+		"dataType": ["sc:Float"]
+	},
+	{
+		"name": "ML Task Feature (Additive - pKa (COOH group))",
+		"description": "Ratio of additive: Ca ion concentration used.",
+		"dataType": ["sc:Float"]
+	},
+	{
+		"name": "ML Task Feature (Additive - pKb (NH2 group))",
+		"description": "Ratio of additive: Ca ion concentration used.",
+		"dataType": ["sc:Float"]
+	},
+	{
+		"name": "ML Task Feature (Additive - pI)",
+		"description": "Ratio of additive: Ca ion concentration used.",
+		"dataType": ["sc:Float"]
+	},
+	{
+		"name": "ML Task Feature (Additive - pKc (other group))",
+		"description": "Ratio of additive: Ca ion concentration used.",
+		"dataType": ["sc:Float"]
+	},
+	{
+		"name": "ML Task Target (Calcite unit-cell length a)",
+		"description": "Unit-cell length a in angstroms.",
+		"dataType": ["sc:Float", "https://github.com/Materials-Consortia/namespace-cif/blob/main/src/v0.1.0/properties/structures/_cif_cell_length_a.yaml"]
+	},
+	{
+		"name": "ML Task Target (Calcite unit-cell length c)",
+		"description": "Unit-cell length c in angstroms.",
+		"dataType": ["sc:Float", "https://github.com/Materials-Consortia/namespace-cif/blob/main/src/v0.1.0/properties/structures/_cif_cell_length_c.yaml"]
+	},
+	{
+		"name": "ML Task Target (Calcite phase present)",
+		"description": "Indicates whether the calcite crystalline phase is present.",
+		"dataType": ["sc:Boolean"]
+	},
+	{
+		"name": "ML Task Target (Vaterite unit-cell length a)",
+		"description": "Unit-cell length a in angstroms.",
+		"dataType": ["sc:Float", "https://github.com/Materials-Consortia/namespace-cif/blob/main/src/v0.1.0/properties/structures/_cif_cell_length_a.yaml"]
+	},
+	{
+		"name": "ML Task Target (Vaterite unit-cell length c)",
+		"description": "Unit-cell length c in angstroms.",
+		"dataType": ["sc:Float", "https://github.com/Materials-Consortia/namespace-cif/blob/main/src/v0.1.0/properties/structures/_cif_cell_length_c.yaml"]
+	},
+	{
+		"name": "ML Task Target (Degree of Crystallinity)",
+		"description": "Percentage of area (after background subtraction) that comes from crystalline phases.",
+		"dataType": ["sc:Float","https://topas.awh.durham.ac.uk/doku.php?id=d#degree_of_crystallinity"]
+	},
+	{
+		"name": "ML Task Target (Vaterite phase present)",
+		"description": "Indicates whether the vaterite crystalline phase is present.",
+		"dataType": ["sc:Boolean"]
+	},
+    {
+		"name": "Split (train/test/validation)",
+		"description": "Annotations applied to dataset to act as a target for this machine learning task. Note that in the model, 'bad' is represented by a value of 1 and 'good' by a value of 0.",
+		"dataType": ["sc:Text"]
+	}
+]
