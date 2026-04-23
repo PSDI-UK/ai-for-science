@@ -1,7 +1,0 @@
-croissant field name, DCAT field name
-citeAs,dcterms:bibliographicCitation
-creator, dcterms:creator
-license,dcterms:license
-url,dcat:landingPage
-version,dcat:version
-datePublished,dcterms:issued
