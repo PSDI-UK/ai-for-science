@@ -1,0 +1,906 @@
+{
+        "Resource type": "Dataset",
+        "Publication Date": "2025-10-22",
+        "Creators": [
+                {
+                        "Family name": "Murray",
+                        "Given names": "Claire",
+                        "Identifiers": [
+                                "https://orcid.org/0000-0002-8306-3634"
+                        ],
+                        "Affiliations": [
+                                {
+                                        "Name": "Diamond Light Source",
+                                        "ROR": "https://ror.org/05etxs293"
+                                }
+                        ],
+                        "Role": [
+                                "Project manager"
+                        ]
+                },
+                {
+                        "Family name": "Bird",
+                        "Given names": "Tobias",
+                        "Identifiers": [
+                                "https://orcid.org/0000-0001-9929-726X"
+                        ],
+                        "Affiliations": [
+                                {
+                                        "Name": "Diamond Light Source",
+                                        "ROR": "https://ror.org/05etxs293"
+                                }
+                        ],
+                        "Role": [
+                                "Data Analysis"
+                        ]
+                },
+                {
+                        "Family name": "Holland",
+                        "Given names": "Laura",
+                        "Affiliations": [
+                                {
+                                        "Name": "Rosalind Franklin Institute",
+                                        "ROR": "https://ror.org/01djcs087"
+                                }
+                        ]
+                },
+                {
+                        "Family name": "O'Brien",
+                        "Given names": "Rebecca",
+                        "Affiliations": [
+                                {
+                                        "Name": "Wellcome Trust",
+                                        "ROR": "https://ror.org/029chgv08"
+                                }
+                        ]
+                },
+                {
+                        "Family name": "Richards",
+                        "Given names": "Alice",
+                        "Identifiers": [
+                                "https://orcid.org/0000-0001-8907-2462"
+                        ],
+                        "Affiliations": [
+                                {
+                                        "Name": "Diamond Light Source",
+                                        "ROR": "https://ror.org/05etxs293"
+                                }
+                        ]
+                },
+                {
+                        "Family name": "Baker",
+                        "Given names": "Annabelle R.",
+                        "Affiliations": [
+                                {
+                                        "Name": "Diamond Light Source",
+                                        "ROR": "https://ror.org/05etxs293"
+                                }
+                        ]
+                },
+                {
+                        "Family name": "Basham",
+                        "Given names": "Mark",
+                        "Identifiers": [
+                                "https://orcid.org/0000-0002-8438-1415"
+                        ],
+                        "Affiliations": [
+                                {
+                                        "Name": "Diamond Light Source",
+                                        "ROR": "https://ror.org/05etxs293"
+                                }
+                        ]
+                },
+                {
+                        "Family name": "Bond",
+                        "Given names": "David",
+                        "Affiliations": [
+                                {
+                                        "Name": "Diamond Light Source",
+                                        "ROR": "https://ror.org/05etxs293"
+                                }
+                        ]
+                },
+                {
+                        "Family name": "Connor",
+                        "Given names": "Leigh D.",
+                        "Identifiers": [
+                                "https://orcid.org/0000-0002-7013-5934"
+                        ],
+                        "Affiliations": [
+                                {
+                                        "Name": "Diamond Light Source",
+                                        "ROR": "https://ror.org/05etxs293"
+                                }
+                        ]
+                },
+                {
+                        "Family name": "Day",
+                        "Given names": "Sarah J.",
+                        "Identifiers": [
+                                "https://orcid.org/0000-0003-1059-8475"
+                        ],
+                        "Affiliations": [
+                                {
+                                        "Name": "Diamond Light Source",
+                                        "ROR": "https://ror.org/05etxs293"
+                                }
+                        ]
+                },
+                {
+                        "Family name": "Filik",
+                        "Given names": "Jacob",
+                        "Identifiers": [
+                                "https://orcid.org/0000-0002-5175-0042"
+                        ],
+                        "Affiliations": [
+                                {
+                                        "Name": "Diamond Light Source",
+                                        "ROR": "https://ror.org/05etxs293"
+                                }
+                        ]
+                },
+                {
+                        "Family name": "Fisher",
+                        "Given names": "Stuart",
+                        "Affiliations": [
+                                {
+                                        "Name": "European Synchrotron Radiation Facility",
+                                        "ROR": "https://ror.org/02550n020"
+                                }
+                        ]
+                },
+                {
+                        "Family name": "Holloway",
+                        "Given names": "Peter",
+                        "Affiliations": [
+                                {
+                                        "Name": "Diamond Light Source",
+                                        "ROR": "https://ror.org/05etxs293"
+                                }
+                        ]
+                },
+                {
+                        "Family name": "Levik",
+                        "Given names": "Karl",
+                        "Affiliations": [
+                                {
+                                        "Name": "Diamond Light Source",
+                                        "ROR": "https://ror.org/05etxs293"
+                                }
+                        ]
+                },
+                {
+                        "Family name": "Mercado",
+                        "Given names": "Ronaldo",
+                        "Affiliations": [
+                                {
+                                        "Name": "Diamond Light Source",
+                                        "ROR": "https://ror.org/05etxs293"
+                                }
+                        ]
+                },
+                {
+                        "Family name": "Potter",
+                        "Given names": "Jonathon",
+                        "Affiliations": [
+                                {
+                                        "Name": "Diamond Light Source",
+                                        "ROR": "https://ror.org/05etxs293"
+                                }
+                        ]
+                },
+                {
+                        "Family name": "Tang",
+                        "Given names": "Chiu C.",
+                        "Affiliations": [
+                                {
+                                        "Name": "Diamond Light Source",
+                                        "ROR": "https://ror.org/05etxs293"
+                                }
+                        ]
+                },
+                {
+                        "Family name": "Thompson",
+                        "Given names": "Stephen P.",
+                        "Identifiers": [
+                                "https://orcid.org/0000-0001-9627-2606"
+                        ],
+                        "Affiliations": [
+                                {
+                                        "Name": "Diamond Light Source",
+                                        "ROR": "https://ror.org/05etxs293"
+                                }
+                        ]
+                },
+                {
+                        "Family name": "Parker",
+                        "Given names": "Julia E.",
+                        "Identifiers": [
+                                "https://orcid.org/0000-0002-2514-5762"
+                        ],
+                        "Affiliations": [
+                                {
+                                        "Name": "Diamond Light Source",
+                                        "ROR": "https://ror.org/05etxs293"
+                                }
+                        ]
+                }
+        ],
+        "License": {
+                "https://spdx.org/licenses/CC-BY-4.0.html": {
+                        "url": "https://spdx.org/licenses/CC-BY-4.0.html",
+                        "label": "Creative Commons Attribution 4.0 International"
+                }
+        },
+        "Instrument wavelength": 0.82571125,
+        "Instrument synchrotron": "Diamond Light Source (https://www.diamond.ac.uk/Home.html)",
+        "Instrument beamline": "I11 (https://www.diamond.ac.uk/Instruments/Crystallography/I11/layout.html)",
+        "Instrument detector": "Mythen II Position Sensitive Detector",
+        "Instrument zero error": 0.0032767863,
+        "Instrument zero error - further information": "Calibration of [Si640c](https://tsapps.nist.gov/srmext/certificates/archives/640c.pdf) dataset: [578401-mythen_summedSILICON640C.xye](https://zenodo.org/records/7871450/files/578401-mythen_summedSILICON640C.xye)",
+        "Instrument axial divergence": 3.26757331,
+        "Instrument calibrant": "Si640c (https://tsapps.nist.gov/srmext/certificates/archives/640c.pdf)",
+        "Descriptive chemical formula": "CaCO3",
+        "Reduced chemical formula": "CCaO3",
+        "Hill chemical formula": "CCaO3",
+        "Anonymous chemical formula": "A3BC",
+        "Number of elements": "3",
+        "Elements": [
+                "C",
+                "Ca",
+                "O"
+        ],
+        "Elements ratios": [
+                0.2,
+                0.2,
+                0.6
+        ],
+        "Additives": [
+                {
+                        "label": "AdiAci",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:30832",
+                        "amino acid type": "Dicarboxylic acid",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:28383",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:189840"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "α,ω-dicarboxylic acid",
+                                "dicarboxylic fatty acid"
+                        ],
+                        "name": "adipic acid",
+                        "iupac_name_en": "hexanedioic acid",
+                        "formula": "C6H10O4",
+                        "mass": "146.142",
+                        "canonical_smiles": "O=C(O)CCCCC(=O)O",
+                        "standard_inchi": "InChI=1S/C6H10O4/c7-5(8)3-1-2-4-6(9)10/h1-4H2,(H,7,8)(H,9,10)",
+                        "standard_inchi_key": "WNLRTRBMVRJNCN-UHFFFAOYSA-N",
+						"pKa":"4.41", 
+						"pKb":"5.41",
+						"pKc":"",
+						"pI":""
+                },
+                {
+                        "label": "Ala",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:16977",
+                        "amino acid type": "Hydrophobic",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:16449",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:26463",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "alanine",
+                                "proteinogenic amino acid",
+                                "pyruvate family amino acid",
+                                "L-α-amino acid"
+                        ],
+                        "name": "L-alanine",
+                        "iupac_name_en": "L-alanine",
+                        "formula": "C3H7NO2",
+                        "mass": "89.094",
+                        "canonical_smiles": "C[C@H](N)C(=O)O",
+                        "standard_inchi": "InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1",
+                        "standard_inchi_key": "QNAYBMKLOCPYGJ-REOHCLBHSA-N",
+						"pKa":"2.33", 
+						"pKb":"9.71",
+						"pKc":"",
+						"pI":"6.00"
+                },
+                {
+                        "label": "Arg",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:16467",
+                        "amino acid type": "Positively charged",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:24318",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:29016"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "L-α-amino acid",
+                                "proteinogenic amino acid",
+                                "glutamine family amino acid",
+                                "arginine"
+                        ],
+                        "name": "L-arginine",
+                        "iupac_name_en": "L-arginine",
+                        "formula": "C6H14N4O2",
+                        "mass": "174.204",
+                        "canonical_smiles": "N=C(N)NCCC[C@H](N)C(=O)O",
+                        "standard_inchi": "InChI=1S/C6H14N4O2/c7-4(5(11)12)2-1-3-10-6(8)9/h4H,1-3,7H2,(H,11,12)(H4,8,9,10)/t4-/m0/s1",
+                        "standard_inchi_key": "ODKSFYDXXFIFQN-BYPYZUCNSA-N",
+						"pKa":"2.03", 
+						"pKb":"9.00",
+						"pKc":"12.1",
+						"pI":"10.76"
+                },
+                {
+                        "label": "Asn",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:17196",
+                        "amino acid type": "Polar uncharged",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:22658",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:22653"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "L-α-amino acid",
+                                "proteinogenic amino acid",
+                                "aspartate family amino acid",
+                                "asparagine"
+                        ],
+                        "name": "L-asparagine",
+                        "iupac_name_en": "L-asparagine",
+                        "formula": "C4H8N2O3",
+                        "mass": "132.119",
+                        "canonical_smiles": "NC(=O)C[C@H](N)C(=O)O",
+                        "standard_inchi": "InChI=1S/C4H8N2O3/c5-2(4(8)9)1-3(6)7/h2H,1,5H2,(H2,6,7)(H,8,9)/t2-/m0/s1",
+                        "standard_inchi_key": "DCXYFEDJOCDNAF-REOHCLBHSA-N",
+						"pKa":"2.16", 
+						"pKb":"8.73",
+						"pKc":"",
+						"pI":"5.41"
+                },
+                {
+                        "label": "Asp",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:17053",
+                        "amino acid type": "Negatively charged",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:22658",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:22660",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "proteinogenic amino acid",
+                                "aspartate family amino acid",
+                                "aspartic acid",
+                                "L-α-amino acid"
+                        ],
+                        "name": "L-aspartic acid",
+                        "iupac_name_en": "(2S)-2-aminobutanedioic acid",
+                        "formula": "C4H7NO4",
+                        "mass": "133.103",
+                        "canonical_smiles": "N[C@@H](CC(=O)O)C(=O)O",
+                        "standard_inchi": "InChI=1S/C4H7NO4/c5-2(4(8)9)1-3(6)7/h2H,1,5H2,(H,6,7)(H,8,9)/t2-/m0/s1",
+                        "standard_inchi_key": "CKLJMWTZIZZHCS-REOHCLBHSA-N",
+						"pKa":"1.95", 
+						"pKb":"9.66",
+						"pKc":"3.71",
+						"pI":"2.77"
+                },
+                {
+                        "label": "Cys",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:17561",
+                        "amino acid type": "Special case",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:26650",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15356"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "L-α-amino acid",
+                                "proteinogenic amino acid",
+                                "serine family amino acid",
+                                "cysteine"
+                        ],
+                        "name": "L-cysteine",
+                        "iupac_name_en": "L-cysteine",
+                        "formula": "C3H7NO2S",
+                        "mass": "121.161",
+                        "canonical_smiles": "N[C@@H](CS)C(=O)O",
+                        "standard_inchi": "InChI=1S/C3H7NO2S/c4-2(1-7)3(5)6/h2,7H,1,4H2,(H,5,6)/t2-/m0/s1",
+                        "standard_inchi_key": "XUJNEKJLAYXESH-REOHCLBHSA-N",
+						"pKa":"1.91", 
+						"pKb":"10.28",
+						"pKc":"8.14",
+						"pI":"5.07"
+                },
+                {
+                        "label": "Glu",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:16015",
+                        "amino acid type": "Negatively charged",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:24318",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:18237"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "L-α-amino acid",
+                                "proteinogenic amino acid",
+                                "glutamine family amino acid",
+                                "glutamic acid"
+                        ],
+                        "name": "L-glutamic acid",
+                        "iupac_name_en": "(2S)-2-aminopentanedioic acid",
+                        "formula": "C5H9NO4",
+                        "mass": "147.130",
+                        "canonical_smiles": "N[C@@H](CCC(=O)O)C(=O)O",
+                        "standard_inchi": "InChI=1S/C5H9NO4/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H,7,8)(H,9,10)/t3-/m0/s1",
+                        "standard_inchi_key": "WHUUTDBJXJRKMK-VKHMYHEASA-N",
+						"pKa":"2.16", 
+						"pKb":"9.58",
+						"pKc":"4.15",
+						"pI":"3.22"
+                },
+                {
+                        "label": "Gln",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:18050",
+                        "amino acid type": "Polar uncharged",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:24318",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:28300"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "L-α-amino acid",
+                                "proteinogenic amino acid",
+                                "glutamine family amino acid",
+                                "glutamine"
+                        ],
+                        "name": "L-glutamine",
+                        "iupac_name_en": "L-glutamine",
+                        "formula": "C5H10N2O3",
+                        "mass": "146.146",
+                        "canonical_smiles": "NC(=O)CC[C@H](N)C(=O)O",
+                        "standard_inchi": "InChI=1S/C5H10N2O3/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H2,7,8)(H,9,10)/t3-/m0/s1",
+                        "standard_inchi_key": "ZDXPYRJPNDTMRX-VKHMYHEASA-N",
+						"pKa":"2.18", 
+						"pKb":"9.00",
+						"pKc":"",
+						"pI":"5.65"
+                },
+                {
+                        "label": "Gly",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:15428",
+                        "amino acid type": "Special case",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:33704",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:26650"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "α-amino acid",
+                                "proteinogenic amino acid",
+                                "serine family amino acid"
+                        ],
+                        "name": "glycine",
+                        "iupac_name_en": "aminoacetic acid",
+                        "formula": "C2H5NO2",
+                        "mass": "75.067",
+                        "canonical_smiles": "NCC(=O)O",
+                        "standard_inchi": "InChI=1S/C2H5NO2/c3-1-2(4)5/h1,3H2,(H,4,5)",
+                        "standard_inchi_key": "DHMQDGOQFOQNFH-UHFFFAOYSA-N",
+						"pKa":"2.34", 
+						"pKb":"9.58",
+						"pKc":"",
+						"pI":"5.97"
+                },
+                {
+                        "label": "GltAci",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:17859",
+                        "amino acid type": "Dicarboxylic acid",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:28383",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:189840"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "α,ω-dicarboxylic acid",
+                                "dicarboxylic fatty acid"
+                        ],
+                        "name": "glutaric acid",
+                        "iupac_name_en": "pentanedioic acid",
+                        "formula": "C5H8O4",
+                        "mass": "132.115",
+                        "canonical_smiles": "O=C(O)CCCC(=O)O",
+                        "standard_inchi": "InChI=1S/C5H8O4/c6-4(7)2-1-3-5(8)9/h1-3H2,(H,6,7)(H,8,9)",
+                        "standard_inchi_key": "JFCQEDHGNNZCLN-UHFFFAOYSA-N",
+						"pKa":"2.13", 
+						"pKb":"4.31",
+						"pKc":"9.67",
+						"pI":""
+                },
+                {
+                        "label": "His",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:15971",
+                        "amino acid type": "Positively charged",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:27570"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "L-α-amino acid",
+                                "proteinogenic amino acid",
+                                "histidine"
+                        ],
+                        "name": "L-histidine",
+                        "iupac_name_en": "(2S)-2-amino-3-(1H-imidazol-4-yl)propanoic acid",
+                        "formula": "C6H9N3O2",
+                        "mass": "155.157",
+                        "canonical_smiles": "N[C@@H](Cc1cncn1)C(=O)O",
+                        "standard_inchi": "InChI=1S/C6H9N3O2/c7-5(6(10)11)1-4-2-8-3-9-4/h2-3,5H,1,7H2,(H,8,9)(H,10,11)/t5-/m0/s1",
+                        "standard_inchi_key": "HNDVDQJCIGZPNO-YFKPBYRVSA-N",
+						"pKa":"1.70", 
+						"pKb":"9.09",
+						"pKc":"6.04",
+						"pI":"7.59"
+                },
+                {
+                        "label": "Ile",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:17191",
+                        "amino acid type": "Hydrophobic",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:22658",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:24898"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "L-α-amino acid",
+                                "proteinogenic amino acid",
+                                "aspartate family amino acid",
+                                "isoleucine"
+                        ],
+                        "name": "L-isoleucine",
+                        "iupac_name_en": "L-isoleucine",
+                        "formula": "C6H13NO2",
+                        "mass": "131.175",
+                        "canonical_smiles": "CC[C@H](C)[C@H](N)C(=O)O",
+                        "standard_inchi": "InChI=1S/C6H13NO2/c1-3-4(2)5(7)6(8)9/h4-5H,3,7H2,1-2H3,(H,8,9)/t4-,5-/m0/s1",
+                        "standard_inchi_key": "AGPKZVBTJJNPAG-WHFBIAKZSA-N",
+						"pKa":"2.26", 
+						"pKb":"9.60",
+						"pKc":"",
+						"pI":"6.02"
+                },
+                {
+                        "label": "Leu",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:15603",
+                        "amino acid type": "Hydrophobic",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:26463",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:25017"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "L-α-amino acid",
+                                "proteinogenic amino acid",
+                                "pyruvate family amino acid",
+                                "leucine"
+                        ],
+                        "name": "L-leucine",
+                        "iupac_name_en": "L-leucine",
+                        "formula": "C6H13NO2",
+                        "mass": "131.175",
+                        "canonical_smiles": "CC(C)C[C@H](N)C(=O)O",
+                        "standard_inchi": "InChI=1S/C6H13NO2/c1-4(2)3-5(7)6(8)9/h4-5H,3,7H2,1-2H3,(H,8,9)/t5-/m0/s1",
+                        "standard_inchi_key": "ROHFNLRQFUQHCH-YFKPBYRVSA-N",
+						"pKa":"2.32", 
+						"pKb":"9.58",
+						"pKc":"",
+						"pI":"5.98"
+                },
+                {
+                        "label": "Lys",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:18019",
+                        "amino acid type": "Positively charged",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:22658",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:25094"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "L-α-amino acid",
+                                "proteinogenic amino acid",
+                                "aspartate family amino acid",
+                                "lysine"
+                        ],
+                        "name": "L-lysine",
+                        "iupac_name_en": "(2S)-2,6-diaminohexanoic acid",
+                        "formula": "C6H14N2O2",
+                        "mass": "146.190",
+                        "canonical_smiles": "NCCCC[C@H](N)C(=O)O",
+                        "standard_inchi": "InChI=1S/C6H14N2O2/c7-4-2-1-3-5(8)6(9)10/h5H,1-4,7-8H2,(H,9,10)/t5-/m0/s1",
+                        "standard_inchi_key": "KDXKERNSBIXSRK-YFKPBYRVSA-N",
+						"pKa":"2.15", 
+						"pKb":"9.16",
+						"pKc":"10.67",
+						"pI":"9.74"
+                },
+                {
+                        "label": "MalAci",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:30794",
+                        "amino acid type": "Dicarboxylic acid",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:28383"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "α,ω-dicarboxylic acid"
+                        ],
+                        "name": "malonic acid",
+                        "iupac_name_en": "propanedioic acid",
+                        "formula": "C3H4O4",
+                        "mass": "104.061",
+                        "canonical_smiles": "O=C(O)CC(=O)O",
+                        "standard_inchi": "InChI=1S/C3H4O4/c4-2(5)1-3(6)7/h1H2,(H,4,5)(H,6,7)",
+                        "standard_inchi_key": "OFOBLEOULBTSOW-UHFFFAOYSA-N",
+						"pKa":"2.85", 
+						"pKb":"5.70",
+						"pKc":"",
+						"pI":""
+                },
+                {
+                        "label": "Met",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:16643",
+                        "amino acid type": "Hydrophobic",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:16811",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:22658",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "methionine",
+                                "proteinogenic amino acid",
+                                "aspartate family amino acid",
+                                "L-α-amino acid"
+                        ],
+                        "name": "L-methionine",
+                        "iupac_name_en": "L-methionine",
+                        "formula": "C5H11NO2S",
+                        "mass": "149.215",
+                        "canonical_smiles": "CSCC[C@H](N)C(=O)O",
+                        "standard_inchi": "InChI=1S/C5H11NO2S/c1-9-3-2-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)/t4-/m0/s1",
+                        "standard_inchi_key": "FFEARJCKVFRZRR-BYPYZUCNSA-N",
+						"pKa":"2.16", 
+						"pKb":"9.08",
+						"pKc":"",
+						"pI":"5.74"
+                },
+                {
+                        "label": "Phe",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:17295",
+                        "amino acid type": "Hydrophobic",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:28044",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:73690",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "phenylalanine",
+                                "erythrose 4-phosphate/phosphoenolpyruvate family amino acid",
+                                "L-α-amino acid",
+                                "proteinogenic amino acid"
+                        ],
+                        "name": "L-phenylalanine",
+                        "iupac_name_en": "(2S)-2-amino-3-phenylpropanoic acid",
+                        "formula": "C9H11NO2",
+                        "mass": "165.192",
+                        "canonical_smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+                        "standard_inchi": "InChI=1S/C9H11NO2/c10-8(9(11)12)6-7-4-2-1-3-5-7/h1-5,8H,6,10H2,(H,11,12)/t8-/m0/s1",
+                        "standard_inchi_key": "COLNVLDHVKWLRT-QMMMGPOBSA-N",
+						"pKa":"2.18", 
+						"pKb":"9.09",
+						"pKc":"",
+						"pI":"5.48"
+                },
+                {
+                        "label": "PimAci",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:30531",
+                        "amino acid type": "Dicarboxylic acid",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:28383",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:189840"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "α,ω-dicarboxylic acid",
+                                "dicarboxylic fatty acid"
+                        ],
+                        "name": "pimelic acid",
+                        "iupac_name_en": "heptanedioic acid",
+                        "formula": "C7H12O4",
+                        "mass": "160.169",
+                        "canonical_smiles": "O=C(O)CCCCCC(=O)O",
+                        "standard_inchi": "InChI=1S/C7H12O4/c8-6(9)4-2-1-3-5-7(10)11/h1-5H2,(H,8,9)(H,10,11)",
+                        "standard_inchi_key": "WLJVNTCWHIRURA-UHFFFAOYSA-N",
+						"pKa":"4.71", 
+						"pKb":"5.58",
+						"pKc":"",
+						"pI":""
+                },
+                {
+                        "label": "Pro",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:17203",
+                        "amino acid type": "Special case",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:24318",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:26271"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "L-α-amino acid",
+                                "proteinogenic amino acid",
+                                "glutamine family amino acid",
+                                "proline"
+                        ],
+                        "name": "L-proline",
+                        "iupac_name_en": "L-proline",
+                        "formula": "C5H9NO2",
+                        "mass": "115.132",
+                        "canonical_smiles": "O=C(O)[C@@H]1CCCN1",
+                        "standard_inchi": "InChI=1S/C5H9NO2/c7-5(8)4-2-1-3-6-4/h4,6H,1-3H2,(H,7,8)/t4-/m0/s1",
+                        "standard_inchi_key": "ONIBWKKTOPOVIA-BYPYZUCNSA-N",
+						"pKa":"1.95", 
+						"pKb":"10.47",
+						"pKc":"",
+						"pI":"6.30"
+                },
+                {
+                        "label": "Ser",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:17115",
+                        "amino acid type": "Polar uncharged",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:17822",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:26650",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "serine",
+                                "proteinogenic amino acid",
+                                "serine family amino acid",
+                                "L-α-amino acid"
+                        ],
+                        "name": "L-serine",
+                        "iupac_name_en": "L-serine",
+                        "formula": "C3H7NO3",
+                        "mass": "105.093",
+                        "canonical_smiles": "N[C@@H](CO)C(=O)O",
+                        "standard_inchi": "InChI=1S/C3H7NO3/c4-2(1-5)3(6)7/h2,5H,1,4H2,(H,6,7)/t2-/m0/s1",
+                        "standard_inchi_key": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+						"pKa":"2.13", 
+						"pKb":"9.05",
+						"pKc":"",
+						"pI":"5.68"
+                },
+                {
+                        "label": "SucAci",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:15741",
+                        "amino acid type": "Dicarboxylic acid",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:66873",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:28383"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "C4-dicarboxylic acid",
+                                "α,ω-dicarboxylic acid"
+                        ],
+                        "name": "succinic acid",
+                        "iupac_name_en": "butanedioic acid",
+                        "formula": "C4H6O4",
+                        "mass": "118.088",
+                        "canonical_smiles": "O=C(O)CCC(=O)O",
+                        "standard_inchi": "InChI=1S/C4H6O4/c5-3(6)1-2-4(7)8/h1-2H2,(H,5,6)(H,7,8)",
+                        "standard_inchi_key": "KDYFGRWQOYBRFD-UHFFFAOYSA-N",
+						"pKa":"4.21", 
+						"pKb":"5.64",
+						"pKc":"",
+						"pI":""
+                },
+                {
+                        "label": "Thr",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:16857",
+                        "amino acid type": "Polar uncharged",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:22658",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:26986"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "L-α-amino acid",
+                                "proteinogenic amino acid",
+                                "aspartate family amino acid",
+                                "threonine"
+                        ],
+                        "name": "L-threonine",
+                        "iupac_name_en": "L-threonine",
+                        "formula": "C4H9NO3",
+                        "mass": "119.120",
+                        "canonical_smiles": "C[C@@H](O)[C@H](N)C(=O)O",
+                        "standard_inchi": "InChI=1S/C4H9NO3/c1-2(6)3(5)4(7)8/h2-3,6H,5H2,1H3,(H,7,8)/t2-,3+/m1/s1",
+                        "standard_inchi_key": "AYFVYJQAPQTCCC-GBXIJSLDSA-N",
+						"pKa":"2.20", 
+						"pKb":"8.96",
+						"pKc":"",
+						"pI":"5.60"
+                },
+                {
+                        "label": "Trp",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:16828",
+                        "amino acid type": "Hydrophobic",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:73690",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:27897"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "L-α-amino acid",
+                                "proteinogenic amino acid",
+                                "erythrose 4-phosphate/phosphoenolpyruvate family amino acid",
+                                "tryptophan"
+                        ],
+                        "name": "L-tryptophan",
+                        "iupac_name_en": "L-tryptophan",
+                        "formula": "C11H12N2O2",
+                        "mass": "204.229",
+                        "canonical_smiles": "N[C@@H](Cc1cnc2ccccc12)C(=O)O",
+                        "standard_inchi": "InChI=1S/C11H12N2O2/c12-9(11(14)15)5-7-6-13-10-4-2-1-3-8(7)10/h1-4,6,9,13H,5,12H2,(H,14,15)/t9-/m0/s1",
+                        "standard_inchi_key": "QIVBCDIJIAJPQS-VIFPVBQESA-N",
+						"pKa":"2.38", 
+						"pKb":"9.34",
+						"pKc":"",
+						"pI":"5.89"
+                },
+                {
+                        "label": "Val",
+                        "chebi url": "https://www.ebi.ac.uk/chebi/CHEBI:16414",
+                        "amino acid type": "Hydrophobic",
+                        "ChEBI_molecule_class_urls": [
+                                "https://www.ebi.ac.uk/chebi/CHEBI:15705",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:83813",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:26463",
+                                "https://www.ebi.ac.uk/chebi/CHEBI:27266"
+                        ],
+                        "ChEBI_molecule_class_names": [
+                                "L-α-amino acid",
+                                "proteinogenic amino acid",
+                                "pyruvate family amino acid",
+                                "valine"
+                        ],
+                        "name": "L-valine",
+                        "iupac_name_en": "L-valine",
+                        "formula": "C5H11NO2",
+                        "mass": "117.148",
+                        "canonical_smiles": "CC(C)[C@H](N)C(=O)O",
+                        "standard_inchi": "InChI=1S/C5H11NO2/c1-3(2)4(6)5(7)8/h3-4H,6H2,1-2H3,(H,7,8)/t4-/m0/s1",
+                        "standard_inchi_key": "KZSNJWFQEVHDMF-BYPYZUCNSA-N",
+						"pKa":"2.27", 
+						"pKb":"9.52",
+						"pKc":"",
+						"pI":"5.96"
+                }
+        ]
+}
