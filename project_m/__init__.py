@@ -1,1 +1,0 @@
-from .extract_data_from_files import extract_from_zenodo
