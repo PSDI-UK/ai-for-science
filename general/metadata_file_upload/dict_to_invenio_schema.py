@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Module for formating the dictonary to fit the Invenio json. 
 The dictonary has the keys being the names of the json element.
@@ -9,10 +10,6 @@ KNOWN_FIELDS = {
     "Creators": "creators",
     "License": "rights",
 }
-
-DOMAIN_ID = "project-m"
-
-DOMAIN_NS = "dsmd" 
 
 def set_path(obj: dict, path: str, value: str):
     """
@@ -138,7 +135,7 @@ def adapt_license(licence: dict) -> dict:
         ]
 
 
-def to_invenio_record(data: dict) -> dict:
+def to_invenio_record(data: dict, domain_id: str, domain_ns: str) -> dict:
     """
     Formats the Dict in to the Invenio json format
 
@@ -146,6 +143,10 @@ def to_invenio_record(data: dict) -> dict:
     ----------
     data : Dict
         The data that is to be formated
+    domain_id : str
+        The id of the comunity the data should be uploaded to
+    domain_ns : str
+        The identifier used in the json for alocating domain spisific data
 
     Returns
     -------
@@ -155,14 +156,14 @@ def to_invenio_record(data: dict) -> dict:
     record = {
         "metadata": {},
         "custom_fields": {
-            DOMAIN_NS: []
+            domain_ns: []
             }
     }
 
     dsmb_obj = {}
 
     # Attach the domain
-    record["metadata"]["domains"] = [{"id": DOMAIN_ID}]
+    record["metadata"]["domains"] = [{"id": domain_id}]
     
     for key, value in data.items():
         if value is None:
@@ -189,6 +190,6 @@ def to_invenio_record(data: dict) -> dict:
             dsmb_obj[normalize_key(key)] = value
             
     if dsmb_obj:
-        record["custom_fields"][DOMAIN_NS] = [dsmb_obj]
+        record["custom_fields"][domain_ns] = [dsmb_obj]
     return record
 

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Module for getting files from zenodo.
 """
@@ -21,9 +22,6 @@ def get_record_metadata(record_id: str):
     print("HTTPS_PROXY:", os.environ.get("HTTPS_PROXY"))
     url = f"{ZENODO_BASE_URL}{record_id}"
     response = requests.get(url)
-    if response.status_code == 403:
-        print("403 headers:", dict(r.headers))
-        print("403 body (first 400 chars):", r.text[:400])
     response.raise_for_status()
     return response.json()
 

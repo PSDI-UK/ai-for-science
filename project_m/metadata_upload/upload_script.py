@@ -2,12 +2,16 @@
 Module for uploading a record to invenio
 """
 import requests
-from general import to_invenio_record
-from project_m import extract_from_zenodo
+from general.metadata_file_upload.dict_to_invenio_schema import to_invenio_record
+from general.metadata_file_upload.extract_data_from_files import extract_from_zenodo
 from pathlib import Path
 
-INVENIO_URL = "https://data-collections.psdi.ac.uk"
-TOKEN = ""
+# These are all the variables that need to be chaged
+INVENIO_URL = "https://data-collections-dev.psdi.ac.uk"
+TOKEN = "INVENIO API TOKEN"
+ZENODO_RECORD_ID = "17631085"
+METADATA_JSON = "./project_m/metadata_upload/metadata_fields.json"
+CONSTENTS_DIR = "./constents/"
 
 HEADERS = {
     "Authorization": f"Bearer {TOKEN}",
@@ -33,8 +37,8 @@ def create_payload(file_name: str) -> dict:
         A json formated dict that has the metadata assosiated with the relevent data.
  
     """
-    metadata = extract_from_zenodo(file_name)
-    payload = to_invenio_record(metadata)
+    metadata = extract_from_zenodo(file_name, METADATA_JSON, ZENODO_RECORD_ID, CONSTENTS_DIR)
+    payload = to_invenio_record(metadata, "project-m", "dsmd")
     payload["metadata"]["communities"] = [{"id": "project-m"}]
     return payload
 
@@ -114,10 +118,7 @@ if __name__ == "__main__":
     rawdatadirectory = Path.cwd() / "constents" / "raw" / "ProjectMDiffractionDataUpdated5December2025"
     #all_files = list(rawdatadirectory.rglob("*.xye"))
     #all_files = list(rawdatadirectory.rglob("*-mythen_summed.xye"))
-    file_names = {"578573-mythen_summed.xye", "578574-mythen_summed.xye", "578688-mythen_summed.xye", "578689-mythen_summed.xye",
-                 "578690-mythen_summed.xye", "578691-mythen_summed.xye", "578692-mythen_summed.xye", "578693-mythen_summed.xye",
-                 "578694-mythen_summed.xye", "578695-mythen_summed.xye", "578696-mythen_summed.xye", "578820-mythen_summed.xye",
-                 "578821-mythen_summed.xye", "578948-mythen_summed.xye"}
+    file_names = {"578573-mythen_summed.xye"}
     #file_names = [p.name for p in all_files]
 
     for file_name in file_names:
