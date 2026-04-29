@@ -2,8 +2,8 @@
 Module for uploading a record to invenio
 """
 import requests
-from general.metadata_file_upload.dict_to_invenio_schema import to_invenio_record
-from general.metadata_file_upload.extract_data_from_files import extract_from_zenodo
+from general.invenio_record_upload.dict_to_invenio_schema import to_invenio_record
+from general.invenio_record_upload.extract_data_from_files import extract_from_zenodo
 from pathlib import Path
 
 # These are all the variables that need to be chaged
