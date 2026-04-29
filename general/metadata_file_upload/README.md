@@ -7,7 +7,7 @@ The `metadata_file_upload` package provides a toolkit for extracting metadata fr
 - Accept and publish records automaticaly
 - Publish records into communitys
 - Pull files and metadata from Zenodo repos
-- Components can be used independently or as a full pipeline (see, [Progect M](../project_m/metadata_upload/upload_script.py))
+- Components can be used independently or as a full pipeline (see, [Progect M](/project_m/metadata_upload/upload_script.py))
 ## Module Breakdown
 ### extract_data_from_files.py
 Handles metadata extraction from local files.
